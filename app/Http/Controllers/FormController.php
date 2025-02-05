@@ -29,7 +29,7 @@ class FormController extends Controller
         // Envoyer l'email
         Mail::to('awademeronaldoo@gmail.com')->send(new ContactMail($details));
 
-        $message = "Formulaire soumis et email envoyé avec succès !";
+        return redirect()->route('success');
     }
 
     return view('index', compact('message'));
