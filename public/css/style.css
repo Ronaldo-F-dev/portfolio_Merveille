@@ -499,6 +499,11 @@ h3{
     font-size: 15px;
     color: #777;
 }
+
+.project-box a{
+    color: #1a1919;
+    text-decoration: none;
+}
 .project-box::after, .contact-info::after{
     content: "";
     position: absolute;

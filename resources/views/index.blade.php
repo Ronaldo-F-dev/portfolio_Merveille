@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-<?php $nom = "Ronaldo"; ?>
+<?php $nom = "Merveille"; ?>
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -40,7 +40,7 @@
             </ul>
         </div>
         <div class="nav-button">
-            <button class="btn">Télécharger CV <i class="uil uil-file-alt"></i></button>
+        <a href="{{asset('cv-1.pdf')}}" class="btn" style="text-decoration: none; color:black;"  target="_blank">Télécharger CV <i class="uil uil-file-alt"></i></a>                    </div>
         </div>
         <div class="mode">
             <div class="moon-sun" id="toggle-switch">
@@ -64,13 +64,13 @@
               <p>Je suis un  <span class="typedText"></span></p>
           </div>
           <div class="featured-text-info">
-              <p>Développeur frontend passionné dédié à la création de sites Web visuellement captivants et parfaitement conviviaux.
+              <p>Développeur mobile passionnée dédié à la création d'applications mobiles visuellement captivants et parfaitement conviviaux.
               </p>
           </div>
           <div class="featured-text-btn">
               <button class="btn blue-btn">Embauchez-moi</button>
-              <button class="btn">Télécharger CV <i class="uil uil-file-alt"></i></button>
-          </div>
+              <a href="{{asset('cv-1.pdf')}}" class="btn" style="text-decoration: none; color:black;" target="_blank">Télécharger CV <i class="uil uil-file-alt"></i></a>                    </div>
+              </div>
           <div class="social_icons">
               <div class="icon"><i class="uil uil-instagram"></i></div>
               <div class="icon"><i class="uil uil-linkedin-alt"></i></div>
@@ -80,7 +80,7 @@
         </div>
         <div class="featured-image">
           <div class="image">
-              <img src="{{asset('images/ronaldo.jpg')}}" alt="ronaldo">
+              <img src="{{asset('images/téléchargement.jpeg')}}" alt="ronaldo">
           </div>
         </div>
         <div class="scroll-icon-box">
@@ -102,8 +102,7 @@
                     <p>Je suis hautement compétent en HTML, CSS et JavaScript, ainsi qu'en une gamme de frameworks et de bibliothèques modernes, me permettant de créer des expériences Web engageantes et interactives. De plus, j'ai une expérience pratique des systèmes de gestion de contenu (CMS) populaires tels que WordPress, me permettant de gérer et d'optimiser le contenu de manière transparente.
                     </p>
                     <div class="about-btn">
-                        <button class="btn">Télécharger CV <i class="uil uil-import"></i></button>
-                    </div>
+                    <a href="{{asset('cv-1.pdf')}}" class="btn" style="text-decoration: none; color:black;" target="_blank">Télécharger CV <i class="uil uil-file-alt"></i></a>                    </div>
                 </div>
             </div>
             <div class="col">
@@ -116,10 +115,6 @@
                         <span>CSS</span>
                         <span>JavaScript</span>
                         <span>Bootstrap</span>
-                        <span>Tailwind CSS</span>
-                        <span>Vue</span>
-                        <span>React</span>
-                        <span>Angular</span>
                     </div>
                 </div>
                 <div class="skills-box">
@@ -127,14 +122,18 @@
                         <h3>Backend</h3>
                     </div>
                     <div class="skills-list">
-                        <span>Node.js</span>
-                        <span>Express.js</span>
                         <span>PHP</span>
-                        <span>Laravel</span>
-                        <span>Django</span>
                         <span>JAVA</span>
                         <span>Python</span>
-                        <span>Spring Boot</span>
+                    </div>
+                </div>
+                <div class="skills-box">
+                    <div class="skills-header">
+                        <h3>Frameworks</h3>
+                    </div>
+                    <div class="skills-list">
+                        <span>Laravel</span>
+                        <span>Flutter</span>
                     </div>
                 </div>
                 <div class="skills-box">
@@ -144,9 +143,8 @@
                     <div class="skills-list">
                         <span>MySQL</span>
                         <span>PostgreSQL</span>
-                        <span>MongoDB</span>
+                        <span>Oracle</span>
                         <span>Firebase</span>
-                        <span>SQLite</span>
                     </div>
                 </div>
             </div>
@@ -160,18 +158,16 @@
         <div class="project-container">
           <div class="project-box">
               <i class="uil uil-briefcase-alt"></i>
-              <h3>Finis</h3>
-              <label>85+ Finished Projects</label>
+              <h3><a href="git@github.com:merveilleesp/DartRecap.git">Jeu Trésor Perdu(Dart)</a></h3>
           </div>
           <div class="project-box">
-              <i class="uil uil-users-alt"></i>
-              <h3>Clients</h3>
-              <label>79+ Happy Clients</label>
+              <i class="uil uil-briefcase-alt"></i>
+              <h3><a href="https://app.flutterflow.io/run/8DfY7r5myZ8F4oRVY92E">My Recipe Bok</a></h3>
           </div>
           <div class="project-box">
-              <i class="uil uil-award"></i>
-              <h3>Experience</h3>
-              <label>9+ Years in the field</label>
+              <i class="uil uil-briefcase-alt"></i>
+              <h3><a href="git@github.com:yamdev07/Sale_Data_Analyst.git">Analyse et visualisation de données</a></h3>
+              
           </div>
         </div>
      </section>
@@ -185,8 +181,8 @@
            <div class="col">
               <div class="contact-info">
                   <h2>Trouvez moi <i class="uil uil-corner-right-down"></i></h2>
-                  <p><i class="uil uil-envelope"></i> Email: contact@ronaldodev.online</p>
-                  <p><i class="uil uil-phone"></i> Tel: +229 0199653843</p>
+                  <p><i class="uil uil-envelope"></i> Email: merveilleesp@gmail.com</p>
+                  <p><i class="uil uil-phone"></i> Tel: +229 0151243660</p>
               </div>
            </div>
            <div class="col">

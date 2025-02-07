@@ -34,7 +34,7 @@ function headerShadow() {
 
 /* -- Typing revealing effect -- */
 var typingEffect = new Typed(".typedText",{
-  strings : ["Développeur Web","Développeur Mobile"],
+  strings : ["Développeur Mobile","Développeur Mobile"],
   loop : true,
   typeSpeed : 100, 
   backSpeed : 80,
@@ -97,3 +97,20 @@ sections.forEach(current =>{
 })
 }
 window.addEventListener('scroll', scrollActive)
+
+document.querySelectorAll(".project-box").forEach(box => {
+  box.addEventListener("mouseover", function() {
+      let link = this.querySelector("a"); // Récupère l'élément <a> à l'intérieur
+      if (link) {
+          link.style.color = "white"; // Change la couleur du texte du lien
+      }
+  });
+
+  box.addEventListener("mouseout", function() {
+      let link = this.querySelector("a");
+      if (link) {
+          link.style.color = ""; // Remet la couleur par défaut
+      }
+  });
+});
+
